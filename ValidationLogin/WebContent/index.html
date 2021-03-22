@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>login form</title>
+<style>
+.container {
+	width: 30%;
+	border: 3px solid black;
+	margin: auto;
+	padding: 20px;
+	font-size: 18px;
+	background-color: #82E0AA;
+}
+
+#myform table tr td input {
+	font-size: 18px;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<form method="post" action="Login" id="myform">
+			<table>
+				<tr>
+					<td><b>Email ID:</b></td>
+				</tr>
+				<tr>
+					<td><input type="text" name="user_email" required="required" /><br /></td>
+				</tr>
+				<tr>
+					<td><b>Password:</b></td>
+				</tr>
+				<tr>
+					<td><input type="password" name="password" required="required" />
+						<br /></td>
+				</tr>
+				<tr>
+					<td><button type="submit" ><b>Login</b></button></td>
+				</tr>
+			</table>
+		</form>
+		<table>
+			<tr>
+				<td><a href="index.jsp"><button type ="submit"><b>New Register</b></button></a></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>
