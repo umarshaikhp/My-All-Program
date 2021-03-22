@@ -1,6 +1,8 @@
 package aamir;
 
 public class Addandeven {
+	
+	//this is for even odd 
 private final int a=10;
 	public static void main(String[] args) {
 		int n = 10;
