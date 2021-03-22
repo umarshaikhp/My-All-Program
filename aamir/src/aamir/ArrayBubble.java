@@ -3,6 +3,7 @@ package aamir;
 public class ArrayBubble {
 
 	public static void main(String[] args) {
+		//it is bubble short
 		int[] a = { 10, 30, 50, 20, 70, 60, 40 };
 		System.out.println("Ascending is: ");
 		int temp;
