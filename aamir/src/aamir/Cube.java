@@ -1,0 +1,7 @@
+package aamir;
+ class Cube {
+			
+			
+		}
+	
+
